@@ -1,0 +1,23 @@
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .main-txt {
+    color: rgba(32, 33, 33, 255);
+    font-size: 2.4rem;
+  }
+  .left-content {
+    display: none;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+  .shows-img {
+    width: 55%;
+    right: 35%;
+    top: 18%;
+  }
+
+  .buy-btn {
+    padding: 1.4rem 1.4rem;
+    transition: all 0.2s ease-in-out;
+  }
+}

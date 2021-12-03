@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/nikelogo.jpg" />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/desktop.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <script src="./script/app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Nike</title>
+  </head>
+  <body>
+    <div class="left-content">
+      <div class="navbar">
+        <img class="nike-logo" src="./public/nike.png" alt="logo" />
+      </div>
+      <div class="pn-btn">
+        <a href="#" class="back">‹ Prev</a>
+        <a href="#" class="next">Next ›</a>
+      </div>
+    </div>
+    <img
+      class="shows-img"
+      src="./public/nike-presto-extreme-colorways-1.jpg.png"
+      alt="shows"
+    />
+    <div class="right-content">
+      <ul class="nav-links">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <span class="material-icons"> shopping_cart </span>
+      </ul>
+      <div class="main-content">
+        <p class="main-txt">Nike Presto <br />Extreme.</p>
+        <p class="price">$69</p>
+        <div class="dots">
+          <span
+            onclick="changeColor()"
+            id="dot-pink"
+            class="dot dot-selected"
+          ></span>
+          <span onclick="changeColor2()" id="dot-blue" class="dot"></span>
+          <span onclick="changeColor3()" id="dot-red" class="dot"></span>
+        </div>
+        <div class="buy-me">
+          <button class="buy-btn">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
